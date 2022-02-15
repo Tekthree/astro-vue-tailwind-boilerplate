@@ -1,0 +1,38 @@
+---
+
+import Tour from '../components/Tour.astro';
+import Header from '../components/Header.vue';
+
+let title = 'My Astro Site';
+
+
+---
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<style global>
+		@import "../styles/global.css";
+	</style>
+
+	<style>
+	
+	</style>
+</head>
+<body>
+	<main>
+		<Header client:visible/>
+		
+		
+		<Tour />
+
+	
+
+	</main>
+</body>
+</html>
