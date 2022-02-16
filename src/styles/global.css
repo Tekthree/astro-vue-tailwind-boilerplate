@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'mortendbold';
+    src: local('mortendbold'), url('../../public/assets/fonts/mortend_-_bold-webfont.woff2') format('woff2'),
+         local('mortendbold'), url('../../public/assets/fonts/mortend_-_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'mortendextra_bold';
+    src: local('mortendextra_bold'), url('../../public/assets/fonts/mortend_-_extrabold-webfont.woff2') format('woff2'),
+         local('mortendextra_bold'), url('../../public/assets/fonts/mortend_-_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mortendlight';
+    src: local('mortendlight'), url('../../public/assets/fonts/mortend_-_light-webfont.woff2') format('woff2'),
+         local('mortendlight'), url('../../public/assets/fonts/mortend_-_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mortendextra_bold_outline';
+    src: local('mortendextra_bold_outline'), url('../../public/assets/fonts/mortend_-_extrabold_outline-webfont.woff2') format('woff2'),
+         local('mortendextra_bold_outline'), url('../../public/assets/fonts/mortend_-_extrabold_outline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'mortendregular';
+    src: local('mortendregular'), url('../../public/assets/fonts/mortend_-_regular-webfont.woff2') format('woff2'),
+         local('mortendregular'), url('../../public/assets/fonts/mortend_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
