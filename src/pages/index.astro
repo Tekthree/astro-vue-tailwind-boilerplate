@@ -15,21 +15,24 @@ let title = 'My Astro Site';
 	<meta name="viewport" content="width=device-width">
 	<title>{title}</title>
 	<link rel="stylesheet" href="https://use.typekit.net/wpg4ddv.css">
+	<link rel="stylesheet" href="https://use.typekit.net/yek1mgt.css">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	<style global>
 		@import "../styles/global.css";
+
+		.new-font{
+			-webkit-text-stroke: .1vw #c0b3cb;
+			-webkit-text-fill-color: transparent;
+		}
+
 	</style>
 		
-	<style>
-
-	
-	</style>
 </head>
 <body>
 	<main class="bg-secondary-800 antialiased">
 		<Header client:visible/>
 		<div class="max-w-7xl mx-auto px-4 sm:px-6">
-		<h1 class="new-font text-[10vw] text-center leading-none  md:text-6xl lg:text-8xl uppercase text-primary font-acuminpro"> <span class="text-3xl font-acuminpro">Seattle Based</span> Creative Developer <span class="font-acuminpro text-orange-200">and</span> Designer</h1>
+		<h1 class="text-[10vw] text-center leading-none  md:text-6xl lg:text-8xl uppercase font-black text-primary font-termina"> <span class="text-3xl font-termina font-thin">Seattle Based</span> Creative Developer <span class="font-acuminpro new-font">and</span> Designer</h1>
 		
 		</div>
 

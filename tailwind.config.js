@@ -5,10 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mortendbold: ["mortendbold", "sans-serif"],
-        mortendextra_bold: ["mortendextra_bold", "sans-serif"],
-        mortendlight: ["mortendlight", "sans-serif"],
-        mortendextra_bold_outline: ["mortendextra_bold_outline", "sans-serif"],
+        termina: ["termina", "sans-serif"],
         acuminpro: ["acumin-pro", "sans-serif"],
       },
       colors: {
