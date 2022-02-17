@@ -9,7 +9,7 @@ module.exports = {
         mortendextra_bold: ["mortendextra_bold", "sans-serif"],
         mortendlight: ["mortendlight", "sans-serif"],
         mortendextra_bold_outline: ["mortendextra_bold_outline", "sans-serif"],
-        mortendregular: ["mortendregular", "sans-serif"],
+        acuminpro: ["acumin-pro", "sans-serif"],
       },
       colors: {
         primary: {
